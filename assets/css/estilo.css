@@ -1,0 +1,62 @@
+body{
+    padding: 0px;
+    margin: 0px;
+ }
+
+ .texto{
+    color: #8d2927
+ }
+ .carousel-item img {
+    width: 100%;
+    height: auto;
+}
+.parallax {
+   /* Image used for the parallax background */
+   background-image: url('../img/Japa/fundo.png');
+   /* Set a specific height */
+   min-height: 400px; 
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.pricing-table {
+   background-color: rgba(255, 255, 255, 0.95);
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-table table {
+   margin-bottom: 0;
+}
+
+.pricing-table th {
+   background-color: #57432a;
+   color: white;
+   border: none;
+}
+
+.pricing-table td {
+   border: none;
+}
+
+.pricing-table tbody tr:nth-of-type(odd) {
+   background-color: #f8f9fa;
+}
+
+.pricing-table tbody tr:hover {
+   background-color: #e9ecef;
+}
+
+.navbar{
+   width: 100%;
+   background-color: rgba(11, 11, 11, 0.911);
+
+   color: white;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
